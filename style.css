@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+h2{
+    font-size: 40px;
+}
+.light-h2{
+    font-weight: 400;
+}
+p{
+    font-size: 20px;
+}
+section{
+    height: 1073px;
+}
+.top-section{
+    background-image: url("images/header-bg.png");
+
+}
+.content{
+    padding-top: 100px;
+}
+.half-width{
+    width: 37%;
+    float: left;
+    margin-left: 7%;
+    padding-left: 2%;
+}
+.half-width a{
+    color: white;
+    background-color: #ec4c7a;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: #df7190;
+}
+.center{
+    margin-top: 156px;
+}
+.name-color{
+    color: #ec4c7a;
+    font-weight: 700;
+}
+img{
+    width: 100%;
+}
+.middle-section{
+    background-image: url("images/biography-bg.png");
+}
+
+.latest-work h2{
+    text-align: center;
+}
+.sample-work img{
+    max-width: 520px;
+    float: left;
+    padding-left: 15px;
+}
+.sample-work{
+    margin-left: 140px;
+}
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    height: 740px;
+    padding-top: 50px;
+}
+.footer-center h2{
+    margin: 102px;
+}
+
+.footer-center{
+    height: 808px;
+    background-image: url(images/footer-bg.png);
+    text-align: center;
+    background-size: center;
+}
+.footer-center h4{
+    margin: 50px;
+}
+.footer-center h4 span{
+    font-weight: 200;
+}
+.some-text{
+    font-size: 17px;
+}
+.contact{
+    width: 615px;
+    background-image: linear-gradient(90deg, #ec5093, #ed4b72);
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 60px auto;
+}
+.copyright{
+    margin-top: 240px;
+}
+.position{
+    position: fixed;
+    bottom: 80px;
+    left: 5px;
+    width: 100px;
+}
+.position a{
+    text-decoration: none;
+}
